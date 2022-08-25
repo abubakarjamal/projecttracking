@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="w3.css" type="text/css" media="all" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script src="jquery.js " type="text/javascript" charset="utf-8">
+    
+  </script>
+ 
+  <title>Frontend Mentor | Project tracking intro component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="">
+
+    
+  <div class="w3-row">
+   <div class="w3-half">
+  
+    <img class="w3-padding" src="logo.svg" alt="" />
+    <a class="w3-right w3-hide-large w3-hide-medium w3-padding w3-xlarge"> <I class="fa fa-bars"></i></a>
+       <div class="nav w3-card-4 w3-hide-large w3-hide-medium" style="background-color:rgba(0,0,0,0.5);">
+      <div class="w3-bar">
+       <img class="" src="logo.svg" alt="" /> 
+       <a class="close w3-right w3-xlarge w3-padding">&times</a>
+      </div>
+      <div class="w3-bar-block w3-container w3-center ">
+         <a class="a w3-bar-item">Product</a>
+      <a class="a w3-bar-item ">Features</a>
+      <a class="a w3-bar-item">Pricing</a>
+      <hr style="background-color:black;"/>
+      <a class="a w3-bar-item ">Login</a>
+      </div>
+    </div>
+    <div class="w3-padding w3-hide-small w3-padding-top-24">
+      <p class="w3-wide"><span class="w3-badge">new</span> Monograph Dashboard</p>
+      <h1 class="power ">POWERFUL INSIGHTS INTO YOUR TEAM 
+  </h1>
+  <p>Project planning and time tracking for agile teams</p>
+  <a class="w3-padding"><span class="span w3-button w3-text-white" style="background-color: hsl(0, 100%, 68%); border-radius:2px; font-weight:bold;"> Schedule a demo
+  </span> to see a live preview</a>
+    </div>
+  
+   </div> 
+   <div class="w3-half w3-left ">
+      <div class="w3-bar">
+      <a class="a w3-bar-item w3-hide-small">Product</a>
+      <a class="a w3-bar-item w3-hide-small">Features</a>
+      <a class="a w3-bar-item w3-hide-small">Pricing</a>
+      <a class="a w3-bar-item w3-hide-small w3-opacity ">Login</a>
+        <img class="picture" src="illustration-devices.svg" alt="" width="100%" />
+    </div>
+      <div class="w3-hide-large w3-hide-medium w3-padding w3-padding-top-32">
+      <p class="w3-wide"><span class="w3-badge">new</span> Monograph Dashboard</p>
+      <h1 class="power ">POWERFUL INSIGHTS INTO YOUR TEAM 
+  </h1>
+  <p>Project planning and time tracking for agile teams</p>
+  <a class="w3-padding"><span class="span w3-hover-opacity w3-button w3-text-white" style="background-color: hsl(0, 100%, 68%); border-radius:2px; font-weight:bold;"> Schedule a demo
+  </span> to see a live preview</a>
+    </div>
+   </div>
+  </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a  class="sadiq w3-large w3-text-orange">Jamal Abubakar Sadiq</a>.
+    </p>
+  </footer>
+   <script  type="text/javascript" charset="utf-8">
+     $(document).ready(function(){
+       $(".close").click(function (){
+         $(".nav").hide()
+       })
+       $(".fa-bars").click(function (){
+         $(".nav").show()
+       })
+     })
+   </script>
+</body>
+</html>
